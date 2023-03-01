@@ -1,0 +1,365 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGF6WeFuUZ0OiQ=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Persona",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGF6WfSKkbJCrI=",
+							"_parent": {
+								"$ref": "AAAAAAGF6WeFuUZ0OiQ="
+							},
+							"name": "Trabaja en>",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGF6WfSKkbKuXo=",
+								"_parent": {
+									"$ref": "AAAAAAGF6WfSKkbJCrI="
+								},
+								"reference": {
+									"$ref": "AAAAAAGF6WeFuUZ0OiQ="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGF6WfSKkbLlEA=",
+								"_parent": {
+									"$ref": "AAAAAAGF6WfSKkbJCrI="
+								},
+								"reference": {
+									"$ref": "AAAAAAGF6Wejc0ae33k="
+								}
+							}
+						},
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGF6W0qE1PP0R4=",
+							"_parent": {
+								"$ref": "AAAAAAGF6WeFuUZ0OiQ="
+							},
+							"name": "es_jefe",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGF6W0qE1PQwyw=",
+								"_parent": {
+									"$ref": "AAAAAAGF6W0qE1PP0R4="
+								},
+								"name": "jefe",
+								"reference": {
+									"$ref": "AAAAAAGF6WeFuUZ0OiQ="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGF6W0qE1PRvmA=",
+								"_parent": {
+									"$ref": "AAAAAAGF6W0qE1PP0R4="
+								},
+								"name": "subordinado",
+								"reference": {
+									"$ref": "AAAAAAGF6WeFuUZ0OiQ="
+								}
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGF6Wejc0ae33k=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Empresa"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGF6WnptUnnGWY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Trabaja_en",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociationClassLink",
+							"_id": "AAAAAAGF6Wpzk0r43Lc=",
+							"_parent": {
+								"$ref": "AAAAAAGF6WnptUnnGWY="
+							},
+							"classSide": {
+								"$ref": "AAAAAAGF6WnptUnnGWY="
+							},
+							"associationSide": {
+								"$ref": "AAAAAAGF6WfSKkbJCrI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGF6XTdZl5fsvU=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Vehículo"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGF6XT6+F+v+UA=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Avión",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAGF6XVSImMKySg=",
+							"_parent": {
+								"$ref": "AAAAAAGF6XT6+F+v+UA="
+							},
+							"source": {
+								"$ref": "AAAAAAGF6XT6+F+v+UA="
+							},
+							"target": {
+								"$ref": "AAAAAAGF6XTdZl5fsvU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGF6XUOg2Ah/nQ=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Coche",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGF6XUp0GF3k+c=",
+							"_parent": {
+								"$ref": "AAAAAAGF6XUOg2Ah/nQ="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGF6XUp0GF45WE=",
+								"_parent": {
+									"$ref": "AAAAAAGF6XUp0GF3k+c="
+								},
+								"reference": {
+									"$ref": "AAAAAAGF6XUOg2Ah/nQ="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGF6XUp0GF5eLs=",
+								"_parent": {
+									"$ref": "AAAAAAGF6XUp0GF3k+c="
+								},
+								"reference": {
+									"$ref": "AAAAAAGF6XTdZl5fsvU="
+								},
+								"navigable": "navigable"
+							}
+						},
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAGF6XVtpmSJm88=",
+							"_parent": {
+								"$ref": "AAAAAAGF6XUOg2Ah/nQ="
+							},
+							"source": {
+								"$ref": "AAAAAAGF6XUOg2Ah/nQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGF6XTdZl5fsvU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGGCT/mhEyafmE=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "criadero"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGGCUAee0zERuo=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "caballos",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAGGCUEP9kzwjW0=",
+							"_parent": {
+								"$ref": "AAAAAAGGCUAee0zERuo="
+							},
+							"name": "posee<",
+							"source": {
+								"$ref": "AAAAAAGGCUAee0zERuo="
+							},
+							"target": {
+								"$ref": "AAAAAAGGCT/mhEyafmE="
+							}
+						},
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGGCUdE11iMpLc=",
+							"_parent": {
+								"$ref": "AAAAAAGGCUAee0zERuo="
+							},
+							"name": "posee<",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGGCUdE11iNg0E=",
+								"_parent": {
+									"$ref": "AAAAAAGGCUdE11iMpLc="
+								},
+								"reference": {
+									"$ref": "AAAAAAGGCUAee0zERuo="
+								},
+								"multiplicity": "0..*"
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGGCUdE11iOgZk=",
+								"_parent": {
+									"$ref": "AAAAAAGGCUdE11iMpLc="
+								},
+								"reference": {
+									"$ref": "AAAAAAGGCT/mhEyafmE="
+								},
+								"multiplicity": "1"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGGCUPb3E078TM=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "caballo"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGGCURudk1lglE=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "concurso nacional",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGGCUW9tE8J4xo=",
+							"_parent": {
+								"$ref": "AAAAAAGGCURudk1lglE="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGGCUW9tE8KoxI=",
+								"_parent": {
+									"$ref": "AAAAAAGGCUW9tE8J4xo="
+								},
+								"name": "puede competir^",
+								"reference": {
+									"$ref": "AAAAAAGGCURudk1lglE="
+								},
+								"multiplicity": "1..*"
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGGCUW9tE8L2iw=",
+								"_parent": {
+									"$ref": "AAAAAAGGCUW9tE8J4xo="
+								},
+								"reference": {
+									"$ref": "AAAAAAGGCUSPLU2QRfE="
+								},
+								"multiplicity": "1"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGGCUSPLU2QRfE=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "concurso internacional"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGGCUUb/03W0rI=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "concurso regional",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGGCUWtqk5y53g=",
+							"_parent": {
+								"$ref": "AAAAAAGGCUUb/03W0rI="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGGCUWtqk5zR3o=",
+								"_parent": {
+									"$ref": "AAAAAAGGCUWtqk5y53g="
+								},
+								"name": "pasa a ^",
+								"reference": {
+									"$ref": "AAAAAAGGCUUb/03W0rI="
+								},
+								"multiplicity": "1..*"
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGGCUWtqk50vvE=",
+								"_parent": {
+									"$ref": "AAAAAAGGCUWtqk5y53g="
+								},
+								"reference": {
+									"$ref": "AAAAAAGGCURudk1lglE="
+								},
+								"multiplicity": "1"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
